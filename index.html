@@ -2,67 +2,165 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>sumanatamang</title>
-    <link rel="icon" type="image/x-icon" href="assets/fav.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumana</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js"></script>
 </head>
 
 <body>
-    <!-- Background Video-->
-    <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="assets/mp4/bg.mp4" type="video/mp4" />
-    </video>
-    <!-- Masthead-->
-    <div class="masthead">
-        <div class="masthead-content text-white">
-            <div class="container-fluid px-4 px-lg-0">
-                <h1 class="fst-italic lh-1 mb-4">The Website is Coming Soon</h1>
-                <p class="mb-5">We're working hard to finish the development of this site. Sign up below to receive
-                    updates and to be notified when we launch!</p>
+    <!-- Header -->
+    <header class="site_header">
+        <div class="wrapper">
+            <nav class="site_header_nav" aria-label="Main navigation">
+                <div class="nav_container">
+                    <a href="#hero" class="logo">
+                        <img src="assets/logo.png" alt="Sumana Logo" loading="lazy" />
+                    </a>
+                    <ul class="nav_links">
+                        <li><a href="#hero" aria-current="page">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#work">Projects</a></li>
+                        <li><a href="#contact" class="btn-link">Get in touch!</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-                <!-- Plain Bootstrap Form -->
-                <form id="contactForm">
-                    <!-- Email address input-->
-                    <div class="row input-group-newsletter">
-                        <div class="col">
-                            <input class="form-control" id="email" type="email" placeholder="Enter email address..."
-                                aria-label="Enter email address..." required>
-                        </div>
-                        <div class="col-auto">
-                            <button class="btn btn-primary" id="submitButton" type="submit">Notify Me!</button>
-                        </div>
-                    </div>
-                </form>
+    <!-- Main Content -->
+    <main>
+        <section id="hero">
+            <div class="wrapper hero_layout">
+                <div class="hero_image">
+                    <img src="assets/logo.png" alt="Hero Image of Sumana" loading="lazy" />
+                </div>
+                <div class="hero_text">
+                    <h1>Hello, I'm Sumana</h1>
+                    <p>A passionate IT student exploring the world of development and design.</p>
+                </div>
+            </div>
+        </section>
 
+        <section id="about">
+            <div class="wrapper about_layout">
+                <div class="about_text">
+                    <h2>About Me</h2>
+                    <p>
+                        Hello! I'm Sumana Tamang, an enthusiastic IT student from Nepal with a keen interest in software
+                        development, UI/UX design, and cybersecurity. I enjoy building user-friendly, accessible, and
+                        responsive web applications.
+                    </p>
+                </div>
+                <div class="about_image">
+                    <img src="assets/logo.png" alt="Sumana Tamang" loading="lazy" />
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="wrapper">
+                <h2 class="text_center">My Projects</h2>
+                <div class="project_grid">
+                    <!-- Example Project Item -->
+                    <a href="projects/project1.html" class="project_item">
+                        <img src="assets/logo.png" alt="Project 1" loading="lazy" />
+                        <div class="overlay">
+                            <h3>Weather App</h3>
+                        </div>
+                    </a>
+                    <a href="projects/project1.html" class="project_item">
+                        <img src="assets/logo.png" alt="Project 1" loading="lazy" />
+                        <div class="overlay">
+                            <h3>Weather App</h3>
+                        </div>
+                    </a>
+                    <a href="projects/project1.html" class="project_item">
+                        <img src="assets/logo.png" alt="Project 1" loading="lazy" />
+                        <div class="overlay">
+                            <h3>Weather App</h3>
+                        </div>
+                    </a>
+                    <a href="projects/project1.html" class="project_item">
+                        <img src="assets/logo.png" alt="Project 1" loading="lazy" />
+                        <div class="overlay">
+                            <h3>Weather App</h3>
+                        </div>
+                    </a>
+                    <a href="projects/project1.html" class="project_item">
+                        <img src="assets/logo.png" alt="Project 1" loading="lazy" />
+                        <div class="overlay">
+                            <h3>Weather App</h3>
+                        </div>
+                    </a>
+                    <a href="projects/project1.html" class="project_item">
+                        <img src="assets/logo.png" alt="Project 1" loading="lazy" />
+                        <div class="overlay">
+                            <h3>Weather App</h3>
+                        </div>
+                    </a>
+                    <!-- Repeat project items similarly -->
+                    <!-- ... -->
+                </div>
+
+                <div class="text_center">
+                    <button class="load_more_btn">Load More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="wrapper">
+                <div class="contact_card">
+                    <h2 class="text_center">Get in Touch</h2>
+                    <form action="contact.php" method="POST" id=contactForm class="contact_form" novalidate>
+                        <div class="form_group half">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required />
+                        </div>
+                        <div class="form_group half">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+                        </div>
+                        <div class="form_group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Type your message here..."
+                                required></textarea>
+                        </div>
+                        <div class="text_center">
+                            <button type="submit" class="send_btn">Send Message</button>
+                        </div>
+                        <p id="formResponse"></p>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="wrapper footer_content">
+            <div class="footer_section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:sumanaatamang@gmail.com">sumanaatamang@gmail.com</a></p>
+                <p>Address: Kathmandu, Nepal</p>
+            </div>
+            <div class="footer_section">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="https://github.com/sumanatamang" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/sumanatamang" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    <!-- Social Icons-->
-    <div class="social-icons">
-        <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-            <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-dark m-3" href="#!"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>
+        <div class="text_center copyright">
+            <p>&copy; 2025 Sumana Tamang. All rights reserved.</p>
         </div>
-    </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    </footer>
 </body>
 
 </html>
