@@ -1,2 +1,2 @@
-# sumanatamang.github.io
-This is my portfolio website, showcasing information about me and the projects I've done.
+Sumana Tamang - Portfolio Website
+A modern, responsive portfolio website showcasing my skills and projects.
