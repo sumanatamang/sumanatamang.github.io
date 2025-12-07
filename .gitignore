@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Build / dependencies (optional if you use bundlers)
+node_modules/
+dist/
+build/
+
+# Logs and temp
+*.log
+*.tmp
+*.cache

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumana Tamang - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="wrapper">
+      <nav class="navbar">
+        <div class="logo"><a href="#">Sumana.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://github.com/sumanatamang" aria-label="GitHub" target="_blank"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sumanatamang/" aria-label="LinkedIn" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Scroll to top button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+
+  <!-- Hero -->
+  <main>
+    <section id="home" class="section-hero parallax">
+      <div class="overlay"></div>
+      <div class="wrapper">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="fancy-name">Hi, I'm <span>Sumana Tamang</span></h1>
+            <p class="hero-subtitle">A passionate IT student exploring the world of development and design</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="cta-btn">
+                <span>View My Work</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="cta-btn secondary">
+                <span>Contact Me</span>
+                <i class="fas fa-paper-plane"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="10">0</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="5">0</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="2">0</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section-about">
+      <div class="wrapper">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-layout">
+          <div class="about-text">
+            <p class="about-intro">
+              I'm Sumana, an enthusiastic IT student from Nepal with a keen interest in information technology and web
+              development. I enjoy creating responsive, user-friendly websites and applications.
+            </p>
+            <div class="skills-section">
+              <h3>Technical Skills</h3>
+              <div class="skills-grid">
+                <div class="skill-category">
+                  <h4>Frontend</h4>
+                  <div class="skill-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Bootstrap</span>
+                  </div>
+                </div>
+                <div class="skill-category">
+                  <h4>Backend</h4>
+                  <div class="skill-tags">
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Python</span>
+                  </div>
+                </div>
+                <div class="skill-category">
+                  <h4>Tools</h4>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Figma</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-details">
+              <div class="detail-item">
+                <i class="fas fa-user"></i>
+                <div>
+                  <span class="detail-label">Name</span>
+                  <span class="detail-value">Sumana Tamang</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <span class="detail-label">Email</span>
+                  <span class="detail-value"><a href="mailto:sumanaatamang@gmail.com">sumanaatamang@gmail.com</a></span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <span class="detail-label">Location</span>
+                  <span class="detail-value">Kathmandu, Nepal</span>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <span class="detail-label">Education</span>
+                  <span class="detail-value">IT Student</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-container">
+              <img src="assets/profile.png" alt="Sumana Tamang" />
+              <div class="image-overlay">
+                <div class="overlay-content">
+                  <h3>Sumana Tamang</h3>
+                  <p>Web Developer & IT Student</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section-projects">
+      <div class="wrapper">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        </div>
+        <div class="project-grid">
+          <div class="project-item" data-category="web frontend">
+            <div class="project-image">
+              <img src="assets/schoolwebsite.png" alt="School Website Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://sumanatamang.com.np/basicwebsite/" class="project-link" target="_blank">
+                    <i class="fas fa-eye"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="https://github.com/sumanatamang/basicwebsite" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>School Website</h3>
+              <p>A responsive school website with modern design and user-friendly interface.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-item" data-category="web frontend">
+            <div class="project-image">
+              <img src="assets/portfoliowebsite.png" alt="Portfolio Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://sumanatamang.com.np/" class="project-link" target="_blank">
+                    <i class="fas fa-eye"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="https://github.com/sumanatamang/sumanatamang.github.io" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>A personal portfolio website showcasing my skills and projects with dark/light mode.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-item" data-category="web fullstack">
+            <div class="project-image">
+              <img src="assets/ecommerce.png" alt="E-commerce Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <i class="fas fa-eye"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <a href="https://github.com/sumanatamang/Ecommerce-Website" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-commerce Store</h3>
+              <p>An online store with product listings, shopping cart, and user authentication.</p>
+              <div class="project-tech">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-contact">
+      <div class="wrapper">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>Feel free to reach out for collaborations or just a friendly hello. I'm always open to discussing new
+              opportunities and projects.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:sumanaatamang@gmail.com">sumanaatamang@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <span>Kathmandu, Nepal</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-clock"></i>
+                <div>
+                  <h4>Response Time</h4>
+                  <span>Within 24 hours</span>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/sumanatamang" aria-label="GitHub" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/sumanatamang/" aria-label="LinkedIn" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form action="#" method="POST" class="contact-form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name *</label>
+                  <input type="text" id="name" name="name" placeholder="Your Name" required />
+                  <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" placeholder="your@email.com" required />
+                  <span class="error-message"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject of your message" required />
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message here..."
+                  required></textarea>
+                <span class="error-message"></span>
+              </div>
+              <button type="submit" class="send-btn">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+              <p id="formResponse" class="form-response"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="wrapper">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Sumana Tamang</h3>
+          <p>IT Student & Web Developer passionate about creating beautiful and functional web experiences.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="https://github.com/sumanatamang" aria-label="GitHub" target="_blank"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sumanatamang/" aria-label="LinkedIn" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Sumana Tamang. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
