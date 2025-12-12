@@ -1,8 +1,6 @@
-# ====================================================
-# GitHub Pages + Cloudflare Specific Ignores
-# ====================================================
 
-# GitHub Pages build artifacts
+# GitHub Pages Specific
+
 _site/
 .sass-cache/
 .jekyll-cache/
@@ -10,30 +8,12 @@ _site/
 .jekyll-clean
 .jekyll-admin-cache
 
-# Cloudflare specific
-.cf/
-.wrangler/
-.wrangler.toml
-.cloudflare/
-workers-site/
-dist-worker/
-*-worker.js
 
-# ====================================================
-# Dependency & Development Files
-# ====================================================
-node_modules/
-jspm_packages/
+# API Keys & Secrets
 
-# Environment variables
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env.cloudflare
-
-# Secrets & keys
+.env.*
 *.key
 *.secret
 *.pem
@@ -41,17 +21,34 @@ jspm_packages/
 *.crt
 *.p12
 *.pfx
+config.js
+config.local.js
+secrets.json
+credentials.json
 
-# Package manager files (choose one)
+# Web3Forms specific
+web3forms-config.js
+web3forms-key.txt
+
+
+# Development & Build Files
+
+node_modules/
 package-lock.json
 yarn.lock
-.pnp.*
 pnpm-lock.yaml
-shrinkwrap.yaml
+.shrinkwrap.yaml
 
-# ====================================================
+# Build directories
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+
+
 # IDE & Editor Files
-# ====================================================
+
 .vscode/
 .idea/
 *.swp
@@ -61,9 +58,9 @@ shrinkwrap.yaml
 .settings/
 *.code-workspace
 
-# ====================================================
+
 # Operating System Files
-# ====================================================
+
 .DS_Store
 .DS_Store?
 ._*
@@ -73,112 +70,54 @@ ehthumbs.db
 Thumbs.db
 desktop.ini
 
-# ====================================================
-# Build Output & Cache
-# ====================================================
-dist/
-build/
-out/
-.cache/
-.parcel-cache/
-.eslintcache
 
-# Framework specific build outputs
-.next/
-.nuxt/
-.nuxt-prod/
-.vuepress/dist
-.serverless/
-.fusebox/
+# Logs & Temporary Files
 
-# ====================================================
-# Logs & Runtime Data
-# ====================================================
 logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
-pids/
-*.pid
-*.seed
-*.pid.lock
-build/Release/
 
-# ====================================================
-# Testing & Coverage
-# ====================================================
-coverage/
-.nyc_output/
-*.lcov
-
-# ====================================================
-# Temporary Files
-# ====================================================
-.tmp/
-.temp/
 tmp/
 temp/
 *.tmp
 *.temp
 
-# ====================================================
-# Service Workers & PWA
-# ====================================================
-sw.js
-workbox-*.js
 
-# ====================================================
-# Package Manager Cache
-# ====================================================
-.npm
-.yarn-integrity
-.dynamodb/
-.tern-port
+# Backup Files
 
-# ====================================================
-# Backup & Version Control
-# ====================================================
 *.bak
 *.backup
 *.orig
-node_repl_history
-*.tgz
 
-# ====================================================
-# Uploads & Media
-# ====================================================
+
+# Cloudflare
+
+.wrangler/
+.wrangler.toml
+.cloudflare/
+workers-site/
+
+
+# Testing & Coverage
+
+coverage/
+.nyc_output/
+
+
+# Uploads
+
 uploads/
-image-cache/
+user-uploads/
 
-# ====================================================
-# SSL & Certificates
-# ====================================================
-ssl/
-*.csr
-*.cer
 
-# ====================================================
-# GitHub Actions & CI/CD
-# ====================================================
-.github/workflows/deploy.yml
+# Image Optimization Cache
 
-# ====================================================
-# Local Development Configs
-# ====================================================
-config.local.js
-*.local
+.image-cache/
+.thumbnails/
 
-# ====================================================
-# Optional: For your specific portfolio project
-# ====================================================
 
-# Remove if you're using package.json for build tools
-# package-lock.json
-# yarn.lock
+# Git Hooks
 
-# Remove if you're not using these frameworks
-# .next/
-# .nuxt/
-# .vuepress/dist
+.githooks/
