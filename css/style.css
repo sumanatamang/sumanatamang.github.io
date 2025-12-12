@@ -1,4 +1,4 @@
-/* ====== VARIABLES ====== */
+/*  VARIABLES  */
 :root {
     --primary: #1a3a5f;
     --secondary: #c46b4f;
@@ -15,7 +15,7 @@
     --transition: all 0.3s ease;
 }
 
-/* ====== GLOBAL ====== */
+/*  GLOBAL  */
 * {
     margin: 0;
     padding: 0;
@@ -75,7 +75,7 @@ img {
     display: inline-block;
 }
 
-/* ====== NAVBAR ====== */
+/*  NAVBAR  */
 .site-header {
     position: fixed;
     top: 0;
@@ -167,7 +167,7 @@ img {
     z-index: 999;
 }
 
-/* ====== HERO ====== */
+/*  HERO  */
 .section-hero {
     background: linear-gradient(135deg, var(--primary) 0%, #2a5182 100%);
     padding: 8rem 0 4rem;
@@ -254,7 +254,7 @@ img {
     transform: translateY(-2px);
 }
 
-/* ====== ABOUT ====== */
+/*  ABOUT  */
 .section-about {
     padding: 5rem 0;
     background: var(--card-bg);
@@ -383,7 +383,7 @@ img {
     transform: scale(1.05);
 }
 
-/* ====== PROJECTS ====== */
+/*  PROJECTS  */
 .section-projects {
     padding: 4rem 0;
     background: var(--background);
@@ -497,7 +497,7 @@ img {
     font-weight: 500;
 }
 
-/* ====== CONTACT ====== */
+/*  CONTACT  */
 .section-contact {
     padding: 4rem 0;
     background: var(--card-bg);
@@ -774,7 +774,7 @@ img {
     background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
 }
 
-/* ====== FOOTER ====== */
+/*  FOOTER  */
 .site-footer {
     background: var(--primary);
     color: var(--text-light);
@@ -838,7 +838,7 @@ img {
     border-top: 1px solid rgba(230, 215, 200, 0.2);
 }
 
-/* ====== SCROLL BUTTON ====== */
+/*  SCROLL BUTTON  */
 .scroll-button a {
     position: fixed;
     bottom: 20px;
@@ -869,7 +869,7 @@ img {
     box-shadow: var(--shadow-hover);
 }
 
-/* ====== FOCUS STATES (Accessibility) ====== */
+/*  FOCUS STATES (Accessibility)  */
 a:focus,
 button:focus,
 input:focus,
@@ -878,7 +878,7 @@ textarea:focus {
     outline-offset: 3px;
 }
 
-/* ====== ANIMATIONS ====== */
+/*  ANIMATIONS  */
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -925,7 +925,7 @@ textarea:focus {
     }
 }
 
-/* ====== RESPONSIVE DESIGN ====== */
+/*  RESPONSIVE DESIGN  */
 @media (max-width: 992px) {
 
     .about-layout,
