@@ -1,19 +1,25 @@
 /*  VARIABLES  */
 :root {
-    --primary: #1a3a5f;
-    --secondary: #c46b4f;
-    --accent: #e6d7c8;
-    --light: #f8f5f2;
-    --dark: #0a1a2f;
-    --text-dark: #2a2a2a;
-    --text-light: #f9f9f9;
+    --primary: #12304f;
+    --secondary: #b04a2f;
+    --accent: #e0c9b3;
+
+    --light: #ffffff;
+    --dark: #081726;
+
+    --text-dark: #1f1f1f;
+    --text-light: #ffffff;
+
     --background: #ffffff;
-    --card-bg: #f9f7f4;
-    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    --shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.15);
+    --card-bg: #f2f2f2;
+
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    --shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.18);
+
     --radius: 8px;
     --transition: all 0.3s ease;
 }
+
 
 /*  GLOBAL  */
 * {
